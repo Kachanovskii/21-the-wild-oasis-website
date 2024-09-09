@@ -1,11 +1,11 @@
 export const metadata = {
-  title: 'Account'
-}
+  title: "Account",
+};
 
 export default function Page() {
-    return (
-        <div>
-          <h1>Your account</h1>
-        </div>
-      );
+  return (
+    <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+      Welcome, Vadim
+    </h2>
+  );
 }
